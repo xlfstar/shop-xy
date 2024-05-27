@@ -1,0 +1,37 @@
+//PC
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/roboto/RobotoCondensed-Regular.ttf') format('ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/roboto/RobotoCondensed-Bold.ttf') format('ttf');
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .pc {
+    display: block;
+  }
+  .mobile {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .pc {
+    display: none !important;
+  }
+  .mobile {
+    display: block;
+  }
+}
+body {
+  font-family: Roboto, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}

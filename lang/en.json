@@ -1,0 +1,9 @@
+{
+  "home": "home",
+  "about": "about",
+  "contact us": "contact us",
+  "Search Products": "Search Products",
+  "search no data": "Your search for '{keywords}' did not yield any results.",
+  "View more": "view more",
+  "quantity": "quantity"
+}
